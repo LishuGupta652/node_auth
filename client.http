@@ -10,7 +10,18 @@ POST http://localhost:3000/api/user/register/
 content-type: application/json
 
 {
-    "name": "lishu123",
-    "email": "001@pakkabaniya.ml",
-    "password" : "123456"
+    "name": "lishugupta",
+    "email": "lishu@pakkabaniya.ml",
+    "password" : "iamunabletotype"
+}
+
+
+###
+
+POST http://localhost:3000/api/user/login/
+content-type: application/json
+
+{
+    "email": "lishu@pakkabaniya.ml",
+    "password" : "iamunabletotype"
 }
