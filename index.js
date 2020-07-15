@@ -19,9 +19,11 @@ mongoose.connect(
 
 // Routes
 const authRoute = require("./routes/auth");
+const postRoute = require("./routes/post");
 
 // Route Middle Ware
 app.use("/api/user", authRoute);
+app.use("/api/post", postRoute);
 
 // home Route
 app.get("/", (req, res) => {

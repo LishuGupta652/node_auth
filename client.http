@@ -25,3 +25,9 @@ content-type: application/json
     "email": "lishu@pakkabaniya.ml",
     "password" : "iamunabletotype"
 }
+
+
+###
+
+GET http://localhost:3000/api/post/
+auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZjBmNGJjMTkzNGU1OTE1ZjBiMjQyZGEiLCJpYXQiOjE1OTQ4MzkxNzV9.Zs-9fToIgTdZVGeLH6f-0ULVK-4IcFRqgqaheFgeRg0
